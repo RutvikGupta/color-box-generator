@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./color-selector.js"></script>
+  </head>
+  <body>
+    <h1>Color Box Generator</h1>
+
+    <form action="">
+      <div>
+        <label for="color">Color:</label>
+        <input type="color" id="col" name="color" value="#e66465">
+      </div>
+      
+      <label class="lab" for="width">Width (in px):</label>
+      <input class="inp" type="text" id="width" name="width" value="200px" />
+      
+      <label class="lab" for="height">Height (in px):</label>
+      <input class="inp" type="text" id="height" name="height" value="200px" />
+      
+      <button class="btn" type="button" onclick="colorSubmit()">Submit</button>
+      <button class="btn" type="button" onclick="removeBoxes()">Remove All Boxes</button>
+    </form>
+  </body>
+</html>
